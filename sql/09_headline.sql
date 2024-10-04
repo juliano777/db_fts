@@ -3,8 +3,8 @@
 SELECT
     ts_headline(
         'portuguese',
-        texto,
+        text_,
         to_tsquery('portuguese', 'fruta'),
         'StartSel = <b>, StopSel =</b>')
 FROM tb_post
-WHERE texto_vetor @@ to_tsquery('portuguese', 'laranja');
+WHERE text_vector @@ to_tsquery('portuguese', 'laranja');

@@ -6,12 +6,11 @@ CREATE TEXT SEARCH DICTIONARY dic_pt_br_tz (
     /* template */
     TEMPLATE = thesaurus,
     
-    /* arquivo de configuração (.ths). */
+    /* configuration file (.ths). */
     DictFile = pt_br_tz,
     
-    /* subdicionário (português Snowball stemmer) */
-     Dictionary = pg_catalog.portuguese_stem 
-);
+    /* subdictionary (Portuguese Snowball stemmer) */
+     Dictionary = pg_catalog.portuguese_stem);
 
 ALTER TEXT SEARCH CONFIGURATION portuguese
     ALTER MAPPING FOR 
@@ -29,10 +28,11 @@ SELECT to_tsvector('portuguese', 'pasta de dente');
 SELECT 
     to_tsvector(
         'portuguese',
-        'A cidade luz é a capital da França');
-        
+        'Após usar a pasta de dente vou jogar bola na cidade luz');
+
+       
 SELECT to_tsvector('portuguese','sp');
 
-ALTER TEXT SEARCH DICTIONARY dic_pt_br_tz (DictFile = pt_br_tz);
+ALTER TEXT SEARCH DICTIONARY dic_pt_br_tz (RELOAD);
 
 SELECT to_tsvector('portuguese','sp');

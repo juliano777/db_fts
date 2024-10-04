@@ -8,8 +8,6 @@ pgsql       pg
 postgresql  pg
 EOF
 
-SHAREDIR=`pg_config --sharedir`
-
 aptitude install myspell-pt-br hunspell-pt-br
 
 cp /usr/share/hunspell/pt_BR.dic $SHAREDIR/tsearch_data/pt_br.dict
@@ -23,8 +21,15 @@ cd $SHAREDIR/tsearch_data
 
 grep -E 'foi|sim' portuguese.stop
 
-echo 'Paris paris' > $SHAREDIR/tsearch_data/sinonimos.syn
+echo 'Paris paris' > $SHAREDIR/tsearch_data/syn.syn
 
-cp thesaurus_sample.ths pt_br_tz.ths
+cp $SHAREDIR/tsearch_data/thesaurus_sample.ths \
+    $SHAREDIR/tsearch_data/pt_br_tz.ths
+
+cat << EOF >> $SHAREDIR/tsearch_data/pt_br_tz.ths
+cidade luz : *Paris cidade luz  
+jogar bola : futebol
+pasta ? dente : *dentifrício
+EOF
 
 echo 'sp : *São *Paulo' >> $SHAREDIR/tsearch_data/pt_br_tz.ths
