@@ -1,31 +1,31 @@
 /* Full text search queries =============================================== */
 
 SELECT
-    titulo
+    title
 FROM tb_post
 WHERE to_tsvector(
         'portuguese',
-        titulo||' '||texto||' '||tags)
+        title||' '||text_||' '||tags)
     @@ to_tsquery(
         'portuguese',
         'fruta');
         
 SELECT
-    titulo
+    title
 FROM tb_post
 WHERE to_tsvector(
         'portuguese',
-        titulo||' '||texto||' '||tags)
+        title||' '||text_||' '||tags)
     @@ to_tsquery(
         'portuguese',
         'presença humana');
         
 SELECT
-    titulo
+    title
 FROM tb_post
 WHERE to_tsvector(
         'portuguese',
-        titulo||' '||texto||' '||tags)
+        title||' '||text_||' '||tags)
     @@ to_tsquery(
         'portuguese',
         'presença & humana');

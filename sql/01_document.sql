@@ -1,7 +1,7 @@
 /* Document =============================================================== */
 
 SELECT
-    titulo,
+    title,
     substring(text_, 1, 70) AS text_
 FROM tb_post                 
 WHERE id = 1;
@@ -25,4 +25,4 @@ SELECT
     to_tsvector(
         'Portuguese',
         'O rato foi pego pela gata preta, pelo gato branco e '
-        ||'pelo cachorro de pêlos liso'); 
+        ||'pelo cachorro de pêlos liso');

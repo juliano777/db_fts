@@ -2,28 +2,26 @@
 
 EXPLAIN ANALYZE
 SELECT
-    titulo
+    title
 FROM tb_post
 WHERE to_tsvector(
     'portuguese',
-    titulo||' '||texto||' '||tags)
-        @@ plainto_tsquery(
-            'portuguese',
-            'presença humana'); 
+    title||' '||text_||' '||tags)
+        @@ plainto_tsquery('portuguese', 'presença humana'); 
         
 ALTER TABLE tb_post
-    ADD COLUMN texto_vetor tsvector
+    ADD COLUMN text_vector tsvector
     GENERATED ALWAYS AS (
         to_tsvector(
             'portuguese',
-             titulo||' '||texto||' '||tags))
+             title||' '||text_||' '||tags))
         STORED;
         
-EXPLAIN ANALYZE 
+EXPLAIN ANALYZE
 SELECT
-    titulo
-FROM tb_post 
-WHERE texto_vetor
+    title
+FROM tb_post
+WHERE text_vector
     @@ plainto_tsquery(
         'portuguese',
-        'presença humana');        
+        'presença humana');       
