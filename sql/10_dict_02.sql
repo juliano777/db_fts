@@ -10,7 +10,7 @@ CREATE TEXT SEARCH DICTIONARY dic_pt_br_ispell (
 );
 
 CREATE TEXT SEARCH CONFIGURATION tsc_pt_br 
-    (COPY = pg_catalog.portuguese );
+    (COPY = pg_catalog.portuguese);
     
 ALTER TEXT SEARCH CONFIGURATION tsc_pt_br
     ALTER MAPPING FOR

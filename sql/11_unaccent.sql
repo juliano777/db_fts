@@ -4,7 +4,8 @@ CREATE EXTENSION unaccent;
 
 SELECT ts_lexize('unaccent', 'Armação');
 
-CREATE TEXT SEARCH CONFIGURATION tsc_pt_unaccent COPY = portuguese);
+CREATE TEXT SEARCH CONFIGURATION tsc_pt_unaccent
+    (COPY = portuguese);
 
 ALTER TEXT SEARCH CONFIGURATION tsc_pt_unaccent
     ALTER MAPPING FOR asciiword,
