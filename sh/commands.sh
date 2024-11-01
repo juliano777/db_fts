@@ -8,14 +8,14 @@ pgsql       pg
 postgresql  pg
 EOF
 
-aptitude install myspell-pt-br hunspell-pt-br
+apt install -y myspell-pt-br hunspell-pt-br
+
+dpkg -S pt_BR.aff pt_BR.dic
 
 cp /usr/share/hunspell/pt_BR.dic $SHAREDIR/tsearch_data/pt_br.dict
 
 sed 's/FLAG UTF-8/FLAG default/g' \
     /usr/share/hunspell/pt_BR.aff > $SHAREDIR/tsearch_data/pt_br.affix
-
-dpkg -S pt_BR.aff pt_BR.dic
 
 cd $SHAREDIR/tsearch_data
 

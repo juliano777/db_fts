@@ -1,1 +1,3 @@
-CREATE INDEX idx_texto_vetor ON tb_post USING GIN (texto_vetor);
+CREATE INDEX idx_text_vector
+	ON tb_post
+	USING GIN (text_vector);

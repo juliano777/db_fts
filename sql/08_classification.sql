@@ -11,9 +11,9 @@ $body$
 BEGIN
 
 RETURN
-    setweight(to_tsvector('portuguese', coalesce(title,'')),'A') ||
-    setweight(to_tsvector('portuguese', coalesce(tags,'')),'B') ||
-    setweight(to_tsvector('portuguese', coalesce(text_,'')),'C');
+    setweight(to_tsvector('portuguese', coalesce(title,'')), 'A') ||
+    setweight(to_tsvector('portuguese', coalesce(tags,'')), 'B') ||
+    setweight(to_tsvector('portuguese', coalesce(text_,'')), 'C');
 
 END;
 $body$

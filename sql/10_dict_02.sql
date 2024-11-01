@@ -20,7 +20,7 @@ ALTER TEXT SEARCH CONFIGURATION tsc_pt_br
         word,
         hword,
         hword_part
-WITH dic_pt_br_ispell, portuguese_stem, simple;
+    WITH dic_pt_br_ispell, portuguese_stem, simple;
 
 SELECT
     to_tsvector('tsc_pt_br', 'caberia') @@ 
