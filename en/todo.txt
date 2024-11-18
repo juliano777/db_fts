@@ -1,0 +1,31 @@
+ id |             title             |                                                tags                                                
+----+-------------------------------+----------------------------------------------------------------------------------------------------
+ 17 | Red Hat Linux                 | Linux Red Hat Unix
+ 18 | Fedora Linux                  | Linux Red Hat Free Software Distro
+ 19 | Football / Soccer             | sport health match
+  1 | Laranjeira                    | laranja fruta vitamina C
+ 15 | Ubuntu                        | sistema operacional linux software livre
+ 20 | Basquetebol                   | basquete esporte saúde jogo
+ 21 | Voleibol                      | vôlei esporte saúde jogo
+ 22 | Saúde                         | vida OMS biologia
+ 23 | Ursídeos                      | urso animal mamífero
+ 24 | Panda-gigante                 | ursídeo animal herbívoro
+  2 | Ananás                        | ananás abacaxi fruta
+ 25 | Limão                         | fruta alimento cítrica
+ 26 | Husky siberiano               | cão cachorro canino
+ 32 | Guitarra clássica / Violão    | instrumento música cordas
+ 33 | Bateria (instrumento musical) | percussão prato bumbo
+ 27 | Pastor-alemão                 | cão cachorro canino
+ 28 | Esporte / Desporto            | saúde competição habilidade
+ 29 | Música                        | harmonia ritmo melodia
+ 30 | Violino                       | instrumento corda agudo
+ 31 | Guitarra                      | música instrumento corda
+ 34 | Baixo                         | contrabaixo instrumento corda grave
+  3 | Cão                           | cão canino animal cachorro
+ 12 | Sustentabilidade              | ecologia economia meio ambiente eletricidade
+  4 | Lobo                          | canino animal lobo
+ 13 | Python                        | software livre BSD linguagem programação Guido van Rossum
+ 14 | FreeBSD                       | sistema operacional software livre BSD Berkeley
+  5 | Amazônia                      | floresta selva américa brasil peru colombia venezuela equador bolivia guiana suriname frança sudam
+ 11 | Culinária                     | comida cozinha gastronomia
+ 16 | Linux                         | linux sistema operacional unix
