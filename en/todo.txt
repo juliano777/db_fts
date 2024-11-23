@@ -1,22 +1,19 @@
- id |             title             |                                                tags                                                
-----+-------------------------------+----------------------------------------------------------------------------------------------------
- 24 | Panda-gigante                 | ursídeo animal herbívoro
-  2 | Ananás                        | ananás abacaxi fruta
- 25 | Limão                         | fruta alimento cítrica
- 26 | Husky siberiano               | cão cachorro canino
- 32 | Guitarra clássica / Violão    | instrumento música cordas
- 33 | Bateria (instrumento musical) | percussão prato bumbo
- 27 | Pastor-alemão                 | cão cachorro canino
- 28 | Esporte / Desporto            | saúde competição habilidade
- 29 | Música                        | harmonia ritmo melodia
- 30 | Violino                       | instrumento corda agudo
- 31 | Guitarra                      | música instrumento corda
- 34 | Baixo                         | contrabaixo instrumento corda grave
-  3 | Cão                           | cão canino animal cachorro
- 12 | Sustentabilidade              | ecologia economia meio ambiente eletricidade
-  4 | Lobo                          | canino animal lobo
- 13 | Python                        | software livre BSD linguagem programação Guido van Rossum
- 14 | FreeBSD                       | sistema operacional software livre BSD Berkeley
-  5 | Amazônia                      | floresta selva américa brasil peru colombia venezuela equador bolivia guiana suriname frança sudam
- 11 | Culinária                     | comida cozinha gastronomia
- 16 | Linux                         | linux sistema operacional unix
+Ananás                        | ananás abacaxi fruta
+Limão                         | fruta alimento cítrica
+Husky siberiano               | cão cachorro canino
+Guitarra clássica / Violão    | instrumento música cordas
+Bateria (instrumento musical) | percussão prato bumbo
+Pastor-alemão                 | cão cachorro canino
+Esporte / Desporto            | saúde competição habilidade
+Música                        | harmonia ritmo melodia
+Violino                       | instrumento corda agudo
+Guitarra                      | música instrumento corda
+Baixo                         | contrabaixo instrumento corda grave
+Cão                           | cão canino animal cachorro
+Sustentabilidade              | ecologia economia meio ambiente eletricidade
+Lobo                          | canino animal lobo
+Python                        | software livre BSD linguagem programação Guido van Rossum
+FreeBSD                       | sistema operacional software livre BSD Berkeley
+Amazônia                      | floresta selva américa brasil peru colombia venezuela equador bolivia guiana suriname frança sudam
+Culinária                     | comida cozinha gastronomia
+Linux                         | linux sistema operacional unix
