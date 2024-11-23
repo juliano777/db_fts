@@ -1,14 +1,5 @@
  id |             title             |                                                tags                                                
 ----+-------------------------------+----------------------------------------------------------------------------------------------------
- 17 | Red Hat Linux                 | Linux Red Hat Unix
- 18 | Fedora Linux                  | Linux Red Hat Free Software Distro
- 19 | Football / Soccer             | sport health match
-  1 | Laranjeira                    | laranja fruta vitamina C
- 15 | Ubuntu                        | sistema operacional linux software livre
- 20 | Basquetebol                   | basquete esporte saúde jogo
- 21 | Voleibol                      | vôlei esporte saúde jogo
- 22 | Saúde                         | vida OMS biologia
- 23 | Ursídeos                      | urso animal mamífero
  24 | Panda-gigante                 | ursídeo animal herbívoro
   2 | Ananás                        | ananás abacaxi fruta
  25 | Limão                         | fruta alimento cítrica
